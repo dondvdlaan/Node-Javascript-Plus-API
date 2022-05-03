@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="module" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="divHeaderText">
+            <h2>Warenpapieren Portfolio</h2>
+        </div>
+    </header>
+
+    <section id="secPortfolio">
+        <div id="divDisplayPortfolio">
+            <table id="tblDisplayPortfolio"></table>
+    </section>
+
+    <section id="secTotal">
+        <div id="divTotal">
+            <div class="grid-container">
+
+                <label for="total">Gesamtresultat:</label>
+                <label id="totalPortfolio"></label>
+                <label for="yield">Rendite [%]:</label>
+                <label id="yield"></label>
+                <label for="currency">Währung:</label>
+                <label id="currency"></label>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="secStockList">
+        <div id="divDisplay">
+            <table id="tblDisplay"></table>
+    </section>
+
+    <section id="secDetails">
+        <div id="detailsText">
+            <div class="grid-container">
+
+                <label for="stock">Aktien:</label>
+                <label id="stock"></label>
+                <label for="ticker">Symbol:</label>
+                <label id="ticker"></label>
+                <label for="value">Wert:</label>
+                <label id="value"></label>
+                <label for="quantity">Menge:</label>
+                <input type="text" id="quantity" name="quantity">
+                <label for="total">Total:</label>
+                <label id="total"></label>
+
+                <label for="confirmation"></label>
+                <button id="confirmation">Kaufen</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="secTrends">
+
+        <canvas id="trending" width="345" height="195"></canvas>
+
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

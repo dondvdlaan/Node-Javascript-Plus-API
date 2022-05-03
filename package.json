@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "couchexport": "^0.0.2",
+    "couchimport": "^1.5.3",
+    "express": "^4.17.2",
+    "nano": "^9.0.5"
+  }
+}
